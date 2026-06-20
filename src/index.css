@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-primary-burgundy: #800020;
+  --color-primary-burgundy-hover: #600018;
+  --color-secondary-gold: #F4B400;
+  --color-secondary-gold-hover: #D39C00;
+  --color-dark-charcoal: #222222;
+  --color-slate-gray: #4A4A4A;
+  --color-light-bg: #FAFAFA;
+  
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+}
+
+/* Custom Scrollbar behavior */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #800020;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #600018;
+}
